@@ -30,7 +30,7 @@ Stack is a core package which enables you to use a key-value based store api for
 ## Install
 
 ```bash
-npm install --save chryb/stack
+npm install --save stack-io
 ```
 
 ## Usage
@@ -45,6 +45,11 @@ stack.add(note: string)
 
 // remove note
 stack.remove(noteId: string)
+
+stack.keys()
+stack.values()
+
+stack.search()
 
 
 ```
